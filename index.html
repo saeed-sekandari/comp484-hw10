@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A small virtual pet game">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buddy's Giga Pet</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load jQuery before our JavaScript file. -->
+    <script
+      src="https://code.jquery.com/jquery-2.2.1.min.js"
+      integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+      crossorigin="anonymous"
+      defer>
+    </script>
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>This is Buddy, my Giga Pet</h1>
+    </header>
+
+    <main>
+      <section class="pet-image-container">
+        <!-- Buddy's pet image. -->
+        <img
+          class="pet-image"
+          src="images/buddy.jpg"
+          alt="Buddy the virtual pet">
+      </section>
+
+      <section class="dashboard">
+        <div>
+          Name:
+          <strong><span class="name"></span></strong>
+        </div>
+
+        <div>
+          Weight:
+          <strong><span class="weight"></span> pounds</strong>
+        </div>
+
+        <div>
+          Happiness:
+          <strong>
+            <span class="happiness"></span> tail wags (per min)
+          </strong>
+        </div>
+
+        <div class="button-container">
+          <button class="treat-button" type="button">Treat</button>
+          <button class="play-button" type="button">Play</button>
+          <button class="exercise-button" type="button">Exercise</button>
+          <button class="nap-button" type="button">Nap</button>
+        </div>
+
+        <!-- JavaScript displays Buddy's latest message here. -->
+        <p class="pet-comment" aria-live="polite"></p>
+      </section>
+    </main>
+  </body>
+</html>
