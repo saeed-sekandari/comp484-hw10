@@ -1,19 +1,17 @@
-# Buddy's Giga Pet
+# COMP 484 Homework 10: Chrome DevTools
 
-This is a virtual pet game built with HTML, CSS, JavaScript, and jQuery.
+This repository contains a copy of my Giga Pet Project with Chrome DevTools logging and debugging demonstrations.
 
-## How to play
+## GitHub Repository
 
-- Click Treat to increase Buddy's weight and happiness.
-- Click Play to increase happiness and decrease weight.
-- Click Exercise to decrease weight and happiness.
-- Click Nap to increase happiness.
-- Buddy needs care when his weight or happiness reaches zero.
+https://github.com/saeed-sekandari/comp484-hw10
 
-GitHub Pages:
+## GitHub Pages
 
-https://saeed-sekandari.github.io/giga-pet-project/
+https://saeed-sekandari.github.io/comp484-hw10/
 
-GitHub Repository:
+## PDF Documentation
 
-https://github.com/saeed-sekandari/giga-pet-project
+[View the DevTools Documentation](assets/hw10-devtools-documentation.pdf)
+
+The PDF includes screenshots and explanations of console logging, browser errors, filtering, violations, breakpoints, variable inspection, and debugging.
